@@ -11,7 +11,11 @@ public class PageController {
 	public ModelAndView index()
 	{
 		ModelAndView mv =  new ModelAndView("page");
+<<<<<<< HEAD
+		mv.addObject("greeting", "Welcome to spring MVC");
+=======
 		mv.addObject("greeting", "Welcome to my spring MVC");
+>>>>>>> refs/remotes/origin/main
 		return mv;
 	}
 	
