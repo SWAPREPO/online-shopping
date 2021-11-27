@@ -11,15 +11,7 @@ public class PageController {
 	public ModelAndView index()
 	{
 		ModelAndView mv =  new ModelAndView("page");
-<<<<<<< HEAD
-<<<<<<< HEAD
-		mv.addObject("greeting", "Welcome to spring MVC");
-=======
-		mv.addObject("greeting", "Welcome to my spring MVC");
->>>>>>> refs/remotes/origin/main
-=======
 		mv.addObject("greeting", "Welcome to swapnil my spring MVC");
->>>>>>> refs/remotes/origin/main
 		return mv;
 	}
 	
